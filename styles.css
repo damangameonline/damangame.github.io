@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px; background: #222; color: #fff; position: sticky; top: 0;
+}
+header .logo { font-size: 1.5rem; font-weight: bold; }
+header nav a {
+  color: #fff; margin-left: 15px; text-decoration: none; padding: 6px 12px;
+  transition: background 0.3s;
+}
+header nav a:hover { background: #444; border-radius: 4px; }
+.btn { border: 2px solid #fff; padding: 6px 12px; border-radius: 4px; }
+.btn-primary {
+  background: #28a745; color: #fff; border: none;
+}
+.hero {
+  background: url('hero-bg.jpg') center/cover no-repeat;
+  color: #fff; text-align: center; padding: 150px 20px;
+}
+.hero h1 { font-size: 2.5rem; margin-bottom: 20px; }
+.hero p { font-size: 1.125rem; margin-bottom: 30px; }
+.features {
+  display: flex; justify-content: space-around; padding: 60px 20px;
+  background: #f9f9f9;
+}
+.feature { max-width: 300px; text-align: center; }
+.about, .download {
+  padding: 60px 20px; text-align: center;
+}
+.download { background: #f1f1f1; }
+footer {
+  background: #222; color: #fff; text-align: center; padding: 20px;
+}
+footer a { color: #28a745; text-decoration: none; }
